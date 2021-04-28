@@ -11,19 +11,19 @@
 
 - Pouvez vous nommer au moins une personne qui a ou aurait pu influencer directement ou indirectement la création de Bitcoin par ses travaux (une personne qui n'a pas été nommée dans le cours)?
 
-> \* - Martti Malmi, vend 5050 bitcoins pour 5,02 $ virés sur son compte Paypal, première vente de bitcoins en dollars - Laszlo Hanyecz, un développeur floridien, expérimente avec succès le minage par GPU (processeur graphique) puis achète deux pizzas pour 10 000 bitcoins.\*
+  > \* - Martti Malmi, vend 5050 bitcoins pour 5,02 $ virés sur son compte Paypal, première vente de bitcoins en dollars - Laszlo Hanyecz, un développeur floridien, expérimente avec succès le minage par GPU (processeur graphique) puis achète deux pizzas pour 10 000 bitcoins.\*
 
 - Avec vos propres recherches et grâce aux compétences acquises en cours pouvez vous expliquer comment une Blockchain crée un lien entre ses différents Blocks?
 
-> \* Lorsqu’un utilisateur effectue une transaction à travers le réseau blockchain, cette dernière est regroupée avec d'autres transactions au sein d'un bloc. Elle est ensuite vérifiée et validée par des membres du réseau\*
+  > \* Lorsqu’un utilisateur effectue une transaction à travers le réseau blockchain, cette dernière est regroupée avec d'autres transactions au sein d'un bloc. Elle est ensuite vérifiée et validée par des membres du réseau\*
 
 - Quelle structure de données informatique peut représenter le mieux cette chaine de Block: https://en.wikipedia.org/wiki/List_of_data_structures ?
 
-> \* Les blocs sont similaires aux nœuds d'une Liste chaînée (Linked list), chaque bloc contient plusieurs éléments. Les éléments d'un bloc sont généralement séparés dans l'en-tête du bloc et ses transactions, alors que les transactions dans un bloc représentent la plupart des données, l'en-tête de bloc contient des métadonnées essentielles sur chaque bloc\*
+  > \* Les blocs sont similaires aux nœuds d'une Liste chaînée (Linked list), chaque bloc contient plusieurs éléments. Les éléments d'un bloc sont généralement séparés dans l'en-tête du bloc et ses transactions, alors que les transactions dans un bloc représentent la plupart des données, l'en-tête de bloc contient des métadonnées essentielles sur chaque bloc\*
 
 - Si je souhaite modifier une transaction de 10 bitcoin que j'ai effectué il y a 6 mois en une transaction de 1 Bitcoin, que dois je modifier dans la Blockchain et que dois je mettre en oeuvre pour que cette modification persiste ?  
   Est ce possible selon vous ?
 
-> \*Ce n'est pas possible, car si Alice a envoyé 10 bitcoin à Bob il y a 6 mois, Alice ne peut pas modifier la transation car le block avec la transaction a été validé sur la blockchain qui prouve que Alice a envoyé 10 bitcoin à Bob il y a 6 mois, mais Alice peut toujour créer une nouvelle transation en envoyant à nouveau 1 Bitcoin si elle a assez de bitcoin sur son wallet.\*
+  > \*Ce n'est pas possible, car si Alice a envoyé 10 bitcoin à Bob il y a 6 mois, Alice ne peut pas modifier la transation car le block avec la transaction a été validé sur la blockchain qui prouve que Alice a envoyé 10 bitcoin à Bob il y a 6 mois, mais Alice peut toujour créer une nouvelle transation en envoyant à nouveau 1 Bitcoin si elle a assez de bitcoin sur son wallet.\*
 
-> \*C'est possible mais plutot impossible... car si Alice veut vraiment modifier la transaction il y a 6 mois il faut qu'elle mène une attaque 51 % disposerait de la puissance de minage suffisante pour exclure ou modifier l'ordre des transactions. Alors bonne chance...\*
+  > \*C'est possible mais plutot impossible... car si Alice veut vraiment modifier la transaction il y a 6 mois il faut qu'elle mène une attaque 51 % disposerait de la puissance de minage suffisante pour exclure ou modifier l'ordre des transactions. Alors bonne chance...\*
