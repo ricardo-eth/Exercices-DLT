@@ -26,4 +26,4 @@
 
 > \*Ce n'est pas possible, car si Alice a envoyé 10 bitcoin à Bob il y a 6 mois, Alice ne peut pas modifier la transation car le block avec la transaction a été validé sur la blockchain qui prouve que Alice a envoyé 10 bitcoin à Bob il y a 6 mois, mais Alice peut toujour créer une nouvelle transation en envoyant à nouveau 1 Bitcoin si elle a assez de bitcoin sur son wallet.\*
 
-> \*C'est possible mais presque impossible... car si Alice veut vraiment modifier la transaction il y a 6 mois il faut qu'elle mène une attaque 51 % disposerait de la puissance de minage suffisante pour exclure ou modifier l'ordre des transactions. Alors bonne chance...\*
+> \*C'est possible mais plutot impossible... car si Alice veut vraiment modifier la transaction il y a 6 mois il faut qu'elle mène une attaque 51 % disposerait de la puissance de minage suffisante pour exclure ou modifier l'ordre des transactions. Alors bonne chance...\*
